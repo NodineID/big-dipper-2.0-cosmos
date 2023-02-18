@@ -1,6 +1,6 @@
 {
-  "title": "Desmos Block Explorer",
-  "network": "desmos-mainnet-1",
+  "title": "Planq Block Explorer",
+  "network": "planq_7070-2",
   "icon": "/desmos/images/icon.svg",
   "logo": {
     "default": "/desmos/images/logo.svg"
@@ -8,18 +8,18 @@
   "prefix": {
     "consensus": "desmosvalcons",
     "validator": "desmosvaloper",
-    "account": "desmos"
+    "account": "planq"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udsm",
-  "votingPowerTokenUnit": "udsm",
+  "primaryTokenUnit": "aplanq",
+  "votingPowerTokenUnit": "aplanq",
   "tokenUnits": {
     "udsm": {
-      "display": "dsm",
-      "exponent": 6
+      "display": "plq",
+      "exponent": 18
     }
   },
   "extra": {
